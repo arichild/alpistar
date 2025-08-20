@@ -10,6 +10,13 @@
 
 /* pages */
 @import "index";
+@import "policy";
+@import "page-404";
+@import "news";
+@import "specialists";
+@import "service";
+@import "services";
+@import "about";
 
 * {
   box-sizing: border-box;
@@ -23,6 +30,12 @@ html {
   font-size: 16px;
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+
+  &.active {
+    overflow: hidden;
+    touch-action: none;
+    -ms-touch-action: none
+  }
 }
 
 body {
@@ -34,7 +47,7 @@ body {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.42;
-  color: #000;
+  color: #231f20;
   background-color: #fff;
 }
 
@@ -65,4 +78,9 @@ body {
   max-width: $widthContainer;
   padding-left: $paddingContainer;
   padding-right: $paddingContainer;
+
+  @media(max-width: 576.99px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

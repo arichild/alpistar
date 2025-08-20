@@ -1,0 +1,97 @@
+.specialists {
+  &-page {
+     p {
+      margin-left: 135px;
+      max-width: 925px;
+      font-size: 16px;
+      line-height: 1.5;
+      // margin-bottom: 40px;
+
+      &:last-child {
+        margin-bottom: 0;
+        padding-bottom: 65px;
+        border-bottom: 1px solid #E0E4EF;
+      }
+    }
+
+    .specialists-list {
+      margin: 60px 0;
+    }
+  }
+
+  &-content {
+    padding-bottom: 30px;
+  }
+
+  @media(max-width: 1440.99px) {
+    &-content {
+      padding-bottom: 40px;
+    }
+
+    &-page {
+      p {
+        margin-left: 100px;
+        margin-bottom: 30px;
+
+        &:last-child {
+          padding-bottom: 50px;
+        }
+      }
+    }
+  }
+
+  @media(max-width: 1024.99px) {
+    &-content {
+      padding-bottom: 50px;
+      margin-bottom: 25px;
+      border-bottom: 1px solid #e0e4ef;
+    }
+
+    &-page {
+      p {
+        margin-left: 0;
+        margin-bottom: 20px;
+        font-size: 15px;
+
+        &:last-child {
+          border: none;
+          padding-bottom: 0;
+        }
+      }
+
+      .specialists-list {
+        margin: 40px 0;
+      }
+    }
+  }
+
+  @media(max-width: 768.99px) {
+    &-content {
+      padding-bottom: 40px;
+      margin-bottom: 20px;
+    }
+
+    &-page {
+      p {
+        font-size: 14px;
+      }
+
+      .specialists-list {
+        margin: 20px 0;
+      }
+    }
+  }
+
+  @media(max-width: 576.99px) {
+    // &-content {
+    //   padding-bottom: 32px;
+    //   margin-bottom: 16px;
+    // }
+
+    &-page {
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+}
