@@ -24,6 +24,14 @@
     display: flex;
   }
 
+  &-farba {
+    color: #C80F16;
+
+    &:hover {
+      color: #61667b;
+    }
+  }
+
   &-copyright {
     margin-right: 59px;
   }

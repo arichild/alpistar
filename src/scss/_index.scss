@@ -105,8 +105,9 @@
       font-size: 32px;
       line-height: 1.1;
       text-transform: uppercase;
-      color: #c80f16;
+      // color: #c80f16;
       margin-bottom: 20px;
+      display: block;
     }
 
     &-subtitle {
@@ -798,9 +799,9 @@
       margin: 25px 0;
     }
 
-    &-icon {
-      max-width: 40px;
-    }
+    // &-icon {
+    //   max-width: 40px;
+    // }
 
     &-txt {
       margin-bottom: 25px;
@@ -928,9 +929,9 @@
       margin: 20px 0;
     }
 
-    &-icon {
-      max-width: 30px;
-    }
+    // &-icon {
+    //   max-width: 30px;
+    // }
 
     &-txt {
       margin-bottom: 20px;
